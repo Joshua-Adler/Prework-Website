@@ -1,0 +1,81 @@
+html {
+	background: #101010;
+	font-family: Arial;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 span {
+	padding: 10pt;
+	background: #202030;
+	border-radius: 200pt;
+}
+
+input {
+	background: #1b1b1b;
+	color: white;
+	border: 1pt solid #aaaaaa;
+	float: right;
+	clear: both;
+	border-radius: 3pt;
+}
+
+select {
+	float: right;
+	clear: both;
+}
+
+.topBar {
+	background: #202020;
+	margin-left: 50pt;
+	margin-right: 50pt;
+	padding: 0.5%;
+	font-size: 125%;
+	border-radius: 3pt;
+}
+
+.topBar a {
+	color: white;
+	text-decoration: none;
+	padding-right: 10pt;
+}
+
+#columnContainer {
+	display: flex;
+	margin-left: 70pt;
+	margin-right: 70pt;
+}
+
+#leftColumn {
+	flex: 1;
+	margin: 8pt;
+}
+
+#rightColumn {
+	flex: 0.4;
+	margin: 8pt;
+}
+
+#buttonContainer {
+	text-align: center;
+}
+
+.mainItem {
+	background: #1b1b1b;
+	margin-top: 16pt;
+	margin-bottom: 16pt;
+	padding: 5pt;
+	border-radius: 10pt;
+}
+
+.imgDesc {
+	font-size: 75%;
+	font-weight: bold;
+}
+
+.itemImg {
+	width: 100%;
+}
