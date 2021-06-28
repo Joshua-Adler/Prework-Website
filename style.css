@@ -10,8 +10,12 @@ h1 {
 
 h1 span {
 	padding: 10pt;
-	background: #202030;
+	background: #20202B;
 	border-radius: 200pt;
+}
+
+a {
+	color: #aaaaff;
 }
 
 input {
@@ -34,19 +38,19 @@ select {
 	margin-right: 50pt;
 	padding: 0.5%;
 	font-size: 125%;
-	border-radius: 3pt;
+	border-radius: 5pt;
 }
 
 .topBar a {
 	color: white;
 	text-decoration: none;
-	padding-right: 10pt;
+	padding-right: 5pt;
 }
 
 #columnContainer {
 	display: flex;
-	margin-left: 70pt;
-	margin-right: 70pt;
+	margin-left: 42pt;
+	margin-right: 42pt;
 }
 
 #leftColumn {
