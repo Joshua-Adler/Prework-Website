@@ -8,6 +8,10 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	margin-left: 8pt;
+}
+
 h1 span {
 	padding: 10pt;
 	background: #20202B;
@@ -33,7 +37,7 @@ select {
 }
 
 .topBar {
-	background: #202020;
+	background: #282828;
 	margin-left: 50pt;
 	margin-right: 50pt;
 	padding: 0.5%;
@@ -49,18 +53,19 @@ select {
 
 #columnContainer {
 	display: flex;
-	margin-left: 42pt;
-	margin-right: 42pt;
+	margin-left: 50pt;
+	margin-right: 50pt;
+	margin-top: 8pt;
 }
 
 #leftColumn {
 	flex: 1;
-	margin: 8pt;
+	margin-right: 8pt;
 }
 
 #rightColumn {
 	flex: 0.4;
-	margin: 8pt;
+	margin-left: 8pt;
 }
 
 #buttonContainer {
@@ -78,6 +83,7 @@ select {
 .imgDesc {
 	font-size: 75%;
 	font-weight: bold;
+	margin-left: 8pt;
 }
 
 .itemImg {
